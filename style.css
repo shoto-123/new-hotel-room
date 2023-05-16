@@ -1,0 +1,302 @@
+/* Slideshow container */
+.slideshow-container {
+    width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a grey background color */
+  .prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+  }
+
+
+  /* cover */
+  #containerPage1{
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
+#firstPhoto{
+    width: 100%;
+    height: 600px;
+    margin-top: -22px;
+}
+
+#textMessageMainPage{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-size: 30px;
+    padding: 20px;
+    border: 3px solid black;
+    color: white;
+    font-family: "Questrial", sans-serif;
+    font-size: 32px;
+}
+
+#textSedaNuvali{
+    font-family: "Questrial", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#textDescriptionSeda{
+    text-align: center;
+    font-family: sans-serif;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+#secondPhoto{
+    width: 100%;
+}
+
+/* jr. suite CSS */
+#bookNowText{
+    position: absolute;
+    color: rgb(255, 115, 64);
+    font-family: "Questrial", sans-serif;
+}
+
+#textJuniorSuite{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btnBookNowJrSuite{
+    position: absolute;
+    left: 39%;
+    bottom: 15%;
+    font-size: 20px;
+    padding: 20px;
+    border-color: white;
+    border-width: 4px;
+    width:250px;
+    color: white;
+    background-color: transparent;
+}
+
+#containerPromotionJuniorSuite{
+    background-color: rgb(255, 223, 223);
+    border-radius: 90%;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    font-size: 30px;
+    padding: 20px;
+    border-color: black;
+    width:200px;
+    height: 120px;
+}
+
+/* deluxe twin CSS */
+#deluxeTwinText{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+}
+
+
+#containerPromotionDeluxeTwin{
+    background-color: rgb(255, 223, 223);
+    border-radius: 90%;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    font-size: 30px;
+    padding: 20px;
+    border-color: black;
+    width:200px;
+    height: 120px;
+}
+
+.btnBookNowDeluxeTwin{
+    position: absolute;
+    bottom: 10%;
+    left: 39%;
+    font-size: 20px;
+    padding: 20px;
+    border-color: rgb(255, 255, 255);
+    border-width: 4px;
+    width:250px;
+    color: white;
+    background-color: transparent;
+}
+
+/* business deluxe CSS */
+#businessDeluxeText{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+}
+
+#containerPromotionBusinessDeluxe{
+    background-color: rgb(255, 223, 223);
+    border-radius: 90%;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    font-size: 30px;
+    padding: 20px;
+    border-color: black;
+    width:200px;
+    height: 120px;
+}
+
+.btnBookNowBusinessDeluxe{
+    position: absolute;
+    bottom: 10%;
+    left: 39%;
+    font-size: 20px;
+    padding: 20px;
+    border-color: rgb(255, 255, 255);
+    border-width: 4px;
+    width:250px;
+    color: white;
+    background-color: transparent;
+}
+
+/* deluxe queen CSS */
+
+#deluxeQueenText{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+}
+
+#containerPromotionDeluxeQueen{
+    background-color: rgb(255, 223, 223);
+    border-radius: 90%;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    font-size: 30px;
+    padding: 20px;
+    border-color: black;
+    width:200px;
+    height: 120px;
+}
+
+.btnBookNowDeluxeQueen{
+    position: absolute;
+    bottom: 10%;
+    left: 43%;
+    font-size: 20px;
+    padding: 20px;
+    border-color: rgb(255, 255, 255);
+    border-width: 4px;
+    width:250px;
+    color: white;
+    background-color: transparent;
+}
+
+/* amenities CSS */
+#amenitiesInclusionHeader{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    margin-top: -30px;
+}
+#headerAmenities{
+    font-family: "Questrial", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0%;
+}
+
+#headerInclusion{
+    font-family: "Questrial", sans-serif;
+    position: absolute;
+    right: 330px;
+    top: 0%;
+}
+
+#roomAmenitiesAndInclusion{
+    position: relative;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    font-family: sans-serif;
+}
+
+#roomAmenitiesAndInclusion #roomAmenitiesColumn1{
+    float: left;
+    width: 350px;
+    margin-right: 50px;
+}
+
+#amenitiesText #roomInclusionColumn2{
+    float: right;
+    width: 350px;
+}
+
+/* lining CCS */
+.lineContainer{
+    margin-top: 3%;
+  }
+  .lines{
+    width: 100%;
+    height: 45px;
+    position: relative;
+  
+  }
+  .lines::after, .lines::before{
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    border:2px solid black;
+    width: 45%;
+    top: 20%;
+  }
+  .lines:after{
+    left:0;
+  }
+  .lines:before{
+    right: 0;
+  }
+  
+  .circles{
+    height: 40px;
+    width: 40px;
+    border:2px solid black;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+  }
